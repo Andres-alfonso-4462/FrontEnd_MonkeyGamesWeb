@@ -54,6 +54,7 @@ body, ul, li, p, a, label, input, div {
 .text-muted { color: #bcbcbc !important;}
 .text-success { color: #59ab6e !important;}
 .text-light { color: #cfd6e1 !important;}
+.text-whited{ color: #ffffff !important;}
 .bg-dark { background-color: #212934 !important;}
 .bg-light { background-color: #e9eef5 !important;}
 .bg-black { background-color: #1d242d !important;}
@@ -75,7 +76,12 @@ body, ul, li, p, a, label, input, div {
 #templatemo_main_nav .navbar .nav-icon { margin-right: 20px;}
 
 /* Hero Carousel */
-#template-mo-zay-hero-carousel { background: #efefef !important;}
+#template-mo-zay-hero-carousel {
+    background: url('../img/banner_img_01.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
 /* Accordion */
 .templatemo-accordion a { color: #000;}
 .templatemo-accordion a:hover { color: #333d4a;}
