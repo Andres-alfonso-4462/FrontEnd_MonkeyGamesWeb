@@ -1,0 +1,114 @@
+/* Fuente y ajustes generales */
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  height: 100%;
+}
+
+.background {
+  background: url("https://images.unsplash.com/photo-1555617117-08c5b1d46d8f?auto=format&fit=crop&w=1350&q=80")
+    center/cover no-repeat;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Encabezado */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: rgb(37, 37, 37);
+  font-weight: bold;
+}
+
+.title-top {
+  font-size: 1rem;
+}
+
+.back {
+  cursor: pointer;
+}
+
+.background {
+  background: url("teclado.avif") center/cover no-repeat;
+  width: 100%;
+  height: 50%;
+}
+
+/* Contenido principal */
+main {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px 30px;
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto 60px auto;
+  border-radius: 10px;
+}
+
+.logo-title {
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  text-shadow: 2px 2px 4px black;
+  margin-bottom: 40px;
+}
+
+/* Formulario */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: 2px solid purple;
+  outline: none;
+}
+
+.login-btn {
+  background: linear-gradient(to right, #7b1fa2, #9c27b0);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  opacity: 0.9;
+}
+
+/* Texto de registro */
+.register-text {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+.register-link {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+.register-link:hover {
+  text-decoration: underline;
+}
